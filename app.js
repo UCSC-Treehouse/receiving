@@ -109,8 +109,8 @@ $(document).ready(function() {
       enabled: true,
     },
     validation: {
-      itemLimit: 20,
-      sizeLimit: 30 * 1073741824,
+      itemLimit: 500,
+      sizeLimit: 50 * 1073741824,
     },
     maxConnections: 5,
     // callbacks: {
